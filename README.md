@@ -60,14 +60,15 @@ An ultrasonic sensor is an instrument that measures the distance to an
 object using ultrasonic sound waves. An ultrasonic sensor uses a 
 transducer to send and receive ultrasonic pulses that relay back 
 information about an object's proximity.
+
 <img src="images\ultrasonic_sensor.png">
 
 ### Temperature sensor
 A temperature sensor is an electronic device that measures the 
 temperature of its environment and converts the input data into 
 electronic data to record, monitor, or signal temperature changes. ... 
-Among the contact temperature sensors are thermocouples and 
-thermistors.
+Among the contact temperature sensors are thermocouples and thermistors.
+
 <img src="images\temperature_sensor.png">
 
 ### Relay
