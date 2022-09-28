@@ -1,6 +1,7 @@
 #  Automatic Smart Water Tank System
 
 Water is an essential element of life.  Due to the global environmental situation,  water management and conservation are vital for human survival.  Considering this,  the interest in the field of consumer-based humanitarian researches with the aid of the  Internet of  Things  (IoT) technology is rapidly developing. This paper discusses an IoT based water tank monitoring system that measures water level, temperature, low tank alert, over-temperature alarm and auto water pump on/off in real-time, using an ultrasonic sensor, temperature sensor, water mother and relay while calculating the volume of the water in real-time.
+
 <img src="images\cover.png">
 
 ## Problem
@@ -53,6 +54,7 @@ prototyping board designs are available. The firmware uses the Lua
 scripting language. The firmware is based on the eLua project, and built 
 on the Espressif Non-OS SDK for ESP8266. It uses many open source 
 projects, such as lua-cjson and SPIFFS. On board Wi-Fi
+
 <img src="images\nodemcu.png">
 
 ### Ultrasonic Sensor
@@ -84,6 +86,7 @@ _
 Now replace the switch of the water pump with relay by connecting the 
 two wires of switch to normally closed(left) and common(center) outlet 
 of the relay module.
+
 <img src="images\relay.png">
 
 ### Water Tank
@@ -91,6 +94,7 @@ A water storage tank holds clean water from your reverse osmosis
 system until demand for water is initiated in the house or business. 
 Water is pumped into the tank from the water source, like a well or a 
 reverse osmosis system. The tank accumulates water until it is full.
+
 <img src="images\water_tank.png">
 
 ### Water Motor
@@ -98,6 +102,7 @@ Its function is to slow down the water and increase the pressure. The
 pumped water–new water that's drawn from the well by the suction at 
 the jet–then combines with the drive water to discharge into the 
 plumbing system at high pressure.
+
 <img src="images\water_motor.png">
 
 ## Apps and Online Services
@@ -105,18 +110,22 @@ plumbing system at high pressure.
 ### Arduino IDE
 Write and upload programs to Arduino compatible boards, but also, with 
 the help of third-party cores, other vendor development boards.
+
 <img src="images\arduino_ide.png">
 
 ### Database
 For data can then be easily accessed, managed, modified, updated, 
 controlled, and organized. Using thingspeak for database.
+
 <img src="images\database.png">
 
 ### Wi Fi
 For connection between nodemcu and database.
+
 <img src="images\wi_fi.png">
 
 ## Block Diagram
+
 <img src="images\block_diagram.png">
 
 
